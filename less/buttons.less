@@ -1,0 +1,93 @@
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px transparent solid;
+  white-space: nowrap;
+  padding: @btn-padding-default;
+  font-size: @btn-size-default;
+  .border-radius(@btn-border-radius);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.btn-small {
+  .border-radius(@btn-border-radius-small);
+  padding: @btn-padding-small !important;
+  font-size: @btn-size-small;
+}
+
+.btn-large {
+  .border-radius(@btn-border-radius-large);
+  padding: @btn-padding-large !important;
+  font-size: @btn-size-large;
+}
+
+.btn-middle {
+  .border-radius(@btn-border-radius-middle);
+  padding: @btn-padding-middle !important;
+  font-size: @btn-size-middle;
+}
+
+.btn-info {
+  background-color: @color-info;
+  color: #FFF;
+}
+
+.btn-danger {
+  background-color: @color-danger;
+  color: #FFF;
+}
+
+.btn-warning {
+  background-color: @color-warning;
+  color: #FFF;
+}
+
+.btn-ghost-info {
+  .btn-ghost(@color-info);  
+}
+
+.btn-ghost-danger {
+  .btn-ghost(@color-danger);  
+}
+
+.btn-ghost-warning {
+  .btn-ghost(@color-warning);  
+}
+
+.btn-ghost(@color) {
+  background-color: transparent;
+  border-color: @color;
+  color: @color;
+}
+
+.btn-block {
+  display: block !important;
+  width: 100%;
+}
+
+.btn-group {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.border-radius(@radius: 4px) {
+  border-radius: @radius;
+}
+
+
+input[type=reset].btn-block,
+input[type=button].btn-block,
+input[type=submit].btn-block {
+  width: 100%;
+}

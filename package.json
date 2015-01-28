@@ -1,0 +1,9 @@
+{
+  "name": "mui",
+  "repository": "git@github.com:simechiang/MUI.git",
+  "dependencies": {
+    "gulp-less": "^2.0.1",
+    "gulp-minify-css": "^0.4.3",
+    "gulp-rename": "^1.2.0"
+  }
+}
