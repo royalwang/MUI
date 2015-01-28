@@ -9,7 +9,7 @@
 
 ## 征集
 
-如果觉得还有需要加入的内容，请发邮件至：[simechiang@126.com](mailto:simechiang@126.com)，\ue056
+如果觉得还有需要加入的内容，请发邮件至：[simechiang@126.com](mailto:simechiang@126.com)，:blush:
 
 
 
